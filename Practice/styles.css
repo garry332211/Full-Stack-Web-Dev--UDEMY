@@ -1,0 +1,38 @@
+#title{
+    background-color: #F55353;
+
+}
+
+#title2{
+    background-color: #F55353;
+}
+
+.nav-link{
+margin: 0 30px;
+font-size: 30px;
+}
+
+.navbar-brand{
+    padding: 30px 0 0 50px;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    margin:60px 0 0 40px;
+    padding: 40px;
+}
+
+.downloadbtn{
+    margin:90px 0 auto 40px;
+    padding: 40px;
+}
+
+.titleImage{
+    width: 40%;
+    si
+    transform: rotate(20deg);
+    margin-left: 20rem;
+}
