@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, 
   initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" href="../styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
@@ -21,6 +22,7 @@
 
   <script src="https://kit.fontawesome.com/d1958e2820.js" crossorigin="anonymous"></script>
   <title>Guri</title>
+  
 </head>
 
 <div>
@@ -63,8 +65,8 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-    <!-- Slideshow Cover -->
+  <!-- <div class="container-fluid">
+   
     <div id="carouselExampleIndicators" class="carousel  slide" data-bs-ride="carousel" data-bs-interval="10000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -76,10 +78,10 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active ">
-          <img src="/Practice/images/pyaas.jpg" class="d-block w-100" alt="Pyaas">
+          <img src="./images/pyaas.jpg" class="d-block w-100" alt="Pyaas">
         </div>
         <div class="carousel-item">
-          <img src="/Practice/images/jassisidhu.jpg" class="d-block w-100" alt="jassisidhu">
+          <img src="./images/jassisidhu.jpg" class="d-block w-100" alt="jassisidhu">
         </div>
         <div class="carousel-item">
           <img src="./images/romi.jpg" class="d-block w-100" alt="romi">
@@ -96,22 +98,23 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- RADIO LIVE -->
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="radio-player">
-          <audio src="https://s2.radio.co/sbb640c97c/listen" class="visually-hidden" id="stream">
+      <div class="col-lg-12 col-md-8 col-sm-6">
+       
+          <audio src="https://securestreams8.autopo.st:3019/1" class="visually-hidden" id="stream">
           </audio>
           <div class="player-controls">
+            <h2>Enjoy Music 24x7</h2>
             <button name="play-pause" class="button play-pause-button" aria-label="Play/pause">
               <i class="fas fa-play" aria-hidden></i>
             </button>
-
+              <img class="radioPic img-fluid" src="https://i.scdn.co/image/ab67706c0000bebb674186b5036802076181904f" alt="">
             <div class="volume-and-title">
               <div class="currently-playing" aria-label="Currently playing">
                 <span class="currently-playing-label">By ©Gurvinder Sran</span>
@@ -130,128 +133,155 @@
           </div>
         </div>
       </div>
+ 
+
+
+
+        <!-- Radio 2 -->
+      <!-- TODO IN THE FUTURE -->
+        <!-- <div class="col-lg-3">
+          <div class="radio-player">
+            <audio src="https://securestreams8.autopo.st:3019/1" class="visually-hidden" id="stream2">
+            </audio>
+            <div class="player-controls">
+              <button name="play-pause2" class="button play-pause-button" aria-label="Play/pause">
+                <i class="fas fa-play" aria-hidden></i>
+              </button>
+  
+              <div class="volume-and-title">
+                <div class="currently-playing" aria-label="Currently playing">
+                  <span class="currently-playing-label">By ©Gurvinder Sran</span>
+                  <span class="currently-playing-title">Punjabi Music 24x7</span>
+                </div>
+  
+                <div class="volume-controls">
+                  <button name="mute2" class="button mute-button" aria-label="Mute/unmute">
+                    <i class="fas fa-volume-down" aria-hidden></i>
+                  </button>
+  
+                  <input type="range" name="volume" class="volume" min="0" max="1" step="0.05" value="0.2"
+                    aria-label="Volume">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
     </div>
-  </div>
-
-
-
+  
 
 
   <!-- MUSIC SECTION -->
-
+ <div class="atMobileView">
   <div class="container-fluid">
-
-    <div class="firstRow">
-
-      <div class="row">
+   
+      <div class="row imagesGrid">
         <h1>Thousands Of Evergreen Songs</h1>
-        <!-- <audio controls>
-      <source src="./images/Dil Tan Pagal Hai - (Raag.Fm).mp3">
-      </audio> -->
-        <div class=" col-lg-2 col-md-4 ">
+     
+        <div class=" col-lg-2 col-md-4 col-sm-6 col-sm-6 ">
           <a href=""><img class="img-fluid" src="./images/billo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/lehmber.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/romi.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/pyaas.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/balkar.jpg" alt=""></a>
         </div>
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/heer.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/diljit2.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/rambo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/smile.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/Romeo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/locket.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/jassisidhu.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/billo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/lehmber.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/romi.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/pyaas.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/balkar.jpg" alt=""></a>
         </div>
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/heer.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/diljit2.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/rambo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/smile.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/Romeo.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/locket.jpg" alt=""></a>
         </div>
 
-        <div class=" col-lg-2 col-md-4">
+        <div class=" col-lg-2 col-md-4 col-sm-6">
           <a href=""><img class="img-fluid" src="./images/jassisidhu.jpg" alt=""></a>
         </div>
       </div>
-    </div>
+   
   </div>
-
+</div>
 
   <!-- NEW SECTION -->
   <br><br>
   <div class="container" id="musicSection">
     <div class="row">
       <h1>See Whats Trending</h1>
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img class="img-fluid"
             src="https://i.discogs.com/6fvGXvbAswgCqvgYr9IXZ8qisCCwNVTSXHrWcBUQD-4/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTY2/MjYyLTE2MDEwNDkz/MDMtOTExNy5qcGVn.jpeg"
@@ -262,7 +292,7 @@
         </div>
       </div>
 
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img class="img-fluid"
             src="https://i.discogs.com/oKvYe68JhGBcrhIzDRtMfw05VCuI2K7dPhB9rH02lGc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDg3/NzY0LTE2MDMyMDgz/NjQtODIxOC5qcGVn.jpeg"
@@ -273,7 +303,7 @@
         </div>
       </div>
 
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img class="img-fluid"
             src="https://i.discogs.com/geSUmsnbNuf4MEamsqpBjt-tlf6oR02tF_tFOCUbZu8/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTY2/NDkxLTE2MDEwNTE4/NTctNjc1Ni5qcGVn.jpeg"
@@ -284,7 +314,7 @@
         </div>
       </div>
 
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img class="img-fluid" src="./images/heer.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -293,7 +323,7 @@
         </div>
       </div>
 
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img class="img-fluid" src="./images/smile.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -302,7 +332,7 @@
         </div>
       </div>
 
-      <div class=" col-lg-2 col-md-4">
+      <div class=" col-lg-2 col-md-4 col-sm-6">
         <div class="card">
           <img src="./images/rambo.jpg" alt="">
           <div class="card-body">
@@ -316,140 +346,69 @@
 
     <div class="container">
       <div class="row">
-       <div class="col-4">
-        <div class="card">
-          <h5 class="card-header">Monthly</h5>
-          <div class="card-body">
-            <h5 class="card-title">24x7 Punajbi Music </h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Join</a>
-          </div>
-          </div>
-        </div>
       
         <div class="col-4">
           <div class="card">
-            <h5 class="card-header">Monthly</h5>
+            <div  class="card-header">
+              <h5>Weekly</h5>
+               </div>
             <div class="card-body">
-              <h5 class="card-title">24x7 Punajbi Music </h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Join</a>
+              <h2>$6.99 </h5>
+              <div class="card-text">
+                <li>Access To Evergreen Music</li>
+                <li>Use On Single Device</li>
+                <li>Live Radio</li>
+              </div>
+              <br>
+              <a href="#" class=" btn btn-primary btn-block btn-lg ">Join</a>
             </div>
             </div>
           </div>
+
+      
+        <div class="col-4">
+          <div class="card">
+            <div  class="card-header">
+              <h5>Monthly</h5>
+               </div>
+            <div class="card-body">
+              <h2>$14.99 </h5>
+                <div class="card-text">
+                  <li>Access To Evergreen Music</li>
+                  <li>Use Upto 3 Devices</li>
+                  <li>Download Music</li>
+                  <li>Live Radio</li>
+                </div>
+                <br>
+              <a href="#" class=" btn btn-primary btn-block btn-lg ">Join</a>
+            </div>
+            </div>
+          </div>
+
 
           <div class="col-4">
             <div class="card">
-              <h5 class="card-header">Monthly</h5>
+              <div  class="card-header">
+                <h5>Anually</h5>
+                 </div>
               <div class="card-body">
-                <h5 class="card-title">24x7 Punajbi Music </h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class=" btn btn-primary ">Join</a>
+                <h2>$80.99 </h5>
+                  <div class="card-text">
+                    <li>Access To Evergreen Music</li>
+                    <li>Use Multiple Devices</li>
+                    <li>Download Music</li>
+                    <li>Download Music</li>
+                    <li>Live Radio</li>
+                  </div>
+                  <br>
+                <a href="#" class=" btn btn-primary btn-block btn-lg ">Join</a>
               </div>
               </div>
             </div>
 
-            
           </div>
         </div>
 
-
-
-
-
-
-
-
-
-  <script>
-    const audio = document.querySelector('#stream')
-    const playPauseButton = document.querySelector('[name="play-pause"]')
-    const playPauseButtonIcon = playPauseButton.querySelector('i.fas')
-    const volumeControl = document.querySelector('[name="volume"]')
-    const currentlyPlaying = document.querySelector('.currently-playing-title')
-    const volumeButton = document.querySelector('[name="mute"]')
-    const volumeButtonIcon = volumeButton.querySelector('i.fas')
-
-
-    let isPlaying = false
-    let fetchInterval = null
-    let currentVolume = 0.2
-
-    audio.volume = currentVolume
-
-    const fetchCurrentlyPlaying = () => fetch('...')
-      .then(response => response.json())
-      .then(data => currentlyPlaying.innerText = data.currentSong)
-
-    const adjustVolumeIcon = volume => {
-      volumeButtonIcon.classList.remove('fa-volume-off')
-      volumeButtonIcon.classList.remove('fa-volume-down')
-      volumeButtonIcon.classList.remove('fa-volume-up')
-      volumeButtonIcon.classList.remove('fa-volume-mute')
-
-      if (volume >= 0.75) {
-        volumeButtonIcon.classList.add('fa-volume-up')
-      }
-
-      if (volume < 0.75 && volume >= 0.2) {
-        volumeButtonIcon.classList.add('fa-volume-down')
-      }
-
-      if (volume < 0.2 && volume > 0) {
-        volumeButtonIcon.classList.add('fa-volume-off')
-      }
-
-      if (volume === 0) {
-        volumeButtonIcon.classList.add('fa-volume-mute')
-      }
-    }
-
-
-    volumeControl.addEventListener('input', () => {
-      const volume = parseFloat(volumeControl.value)
-
-      audio.volume = currentVolume = volume
-      currentVolume = volume
-
-      adjustVolumeIcon(volume)
-    })
-
-    volumeButton.addEventListener('click', () => {
-      if (audio.volume > 0) {
-        adjustVolumeIcon(0)
-        audio.volume = 0
-        volumeControl.value = 0
-      } else {
-        adjustVolumeIcon(currentVolume)
-        audio.volume = currentVolume
-        volumeControl.value = currentVolume
-      }
-    })
-
-    playPauseButton.addEventListener('click', () => {
-      if (isPlaying) {
-        audio.pause()
-
-        playPauseButtonIcon.classList.remove('fa-pause')
-        playPauseButtonIcon.classList.add('fa-play')
-
-        clearInterval(fetchInterval)
-        currentlyPlaying.innerText = 'Listen to Some Radio Station'
-      } else {
-        audio.play()
-
-        playPauseButtonIcon.classList.remove('fa-play')
-        playPauseButtonIcon.classList.add('fa-pause')
-
-        fetchCurrentlyPlaying()
-        fetchInterval = setInterval(fetchCurrentlyPlaying, 3000)
-      }
-
-      isPlaying = !isPlaying
-    })
-
-  </script>
-
   </body>
-
+  <script src="index.js"></script>
 </html>
